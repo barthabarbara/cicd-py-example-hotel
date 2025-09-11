@@ -5,7 +5,6 @@ from selenium.webdriver.common.by import By
 import allure
 import pytest
 
-
 class TestHootel(object):
     def setup_method(self):
         URL = 'http://hotel-v3.progmasters.hu/'
